@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "the-oh-code",
-    "public": "theohcode",
+    "site": "theohcode",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
