@@ -1,0 +1,46 @@
+
+@import url('pretendard.css');
+body{
+    margin: 0;
+    font-family: 'Pretendard';
+}
+
+.app{
+    display: flex;
+    flex-direction: column; /*아래로 내려가면 column, 양 사이드로 가면 row*/
+    width: 100vw; /*이거 반응형이래요 여러분*/
+    height: 100vh; 
+}
+
+.app .mainPage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw; /*이거 반응형이래요 여러분*/
+    height: 100vh; 
+    padding: 60px;   
+}
+
+.app .mainPage > img {
+    width: 60px;
+    height: 60px;
+}
+
+/* .app .mainPage .menuBar {
+    background-color: blue;
+} */
+
+div > nav {
+    display: inline-block;
+}
+
+div > nav > a {
+    display: block;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+}
+
+div > nav > a:hover {
+    background-color: #214fc2;
+    color:aliceblue;
+    cursor: pointer;
+}
