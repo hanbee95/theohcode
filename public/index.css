@@ -76,8 +76,18 @@ ul, li {
  text-decoration: underline;
 }
 
-section {
-  column-width: 15em;
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  float: left;
+  width: 30%;
+  column-width: 150px;
   background: #dadadf;
-  padding: 2em 12em;
+  padding: 2em 2em;
+}
+
+.first1_3 > section > .photos > .sqimg {
+  width: 60px;
+  height: 60px;
 }
