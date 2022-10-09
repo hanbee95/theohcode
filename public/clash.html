@@ -6,6 +6,7 @@
   <title>The OH Code</title>
   <link rel="stylesheet" href="index.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="index.js"></script>
 </head>
 <body>
   <h1>Clash</h1>
@@ -33,10 +34,10 @@
 
       <!-- <h2>Title</h2>
       <p>example</p> -->
-      <img src=png/Aatrox.png class="sqimg">
-      <img src=png/Ahri.png class="sqimg">
-      <img src=png/Akali.png class="sqimg">
-      <img src=png/Akshan.png class="sqimg">
+      <img src=png/Aatrox.png class="sqimg" onclick="openImg(this.src)">
+      <img src=png/Ahri.png class="sqimg" onclick="openImg(this.src)">
+      <img src=png/Akali.png class="sqimg" onclick="openImg(this.src)">
+      <img src=png/Akshan.png class="sqimg" onclick="openImg(this.src)">
       <img src=png/Alistar.png class="sqimg">
       <img src=png/Amumu.png class="sqimg">
       <img src=png/Anivia.png class="sqimg">
@@ -200,7 +201,7 @@
 
     </div>
     <div class = 'column middle'>
-      <div class="my-box">
+      <div class="my-box" id="top">
         Top
       </div>
       <div class="my-box">
