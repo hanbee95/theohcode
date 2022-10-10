@@ -9,7 +9,7 @@ png = re.findall("full\": \"(.*?)\"", reading, re.DOTALL)
 photofile = []
 for elem in png:
     url = 'http://ddragon.leagueoflegends.com/cdn/12.19.1/img/champion/'+elem
-    fl.writelines('<img src=png/'+elem+" class=\"sqimg\">"+'\n')
+    fl.writelines('<img src=png/'+elem+" class=\"sqimg\" onclick=\"openImg(this.src)\">"+'\n')
     # image_filename = wget.download(url)
     # photofile.append(image_filename)
 # print(photofile)
