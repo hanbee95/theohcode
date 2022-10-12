@@ -15,10 +15,15 @@ function openImg(t){
     var img = document.createElement("img");
     img.src = t;
     var div = document.getElementById(activestate);
-    div.appendChild(img);
-    // var tmp = champlanedict[div.id];
-    console.log(t)
-    console.log(div.id)
+
+    var tmp = champlanedict[div.id];
+    if (champlanedict[div.id].includes(t)){
+        div.removeAttribute(img);
+    } else {
+        div.appendChild(img);
+        tmp.push(t);
+    }
+    champlanedict[div.id] = tmp;
 }
 
 function changelane(lane){
