@@ -14,11 +14,14 @@ let champlanedict = {
 function openImg(t){
     var img = document.createElement("img");
     img.src = t;
+    img.id = t;
     var div = document.getElementById(activestate);
 
     var tmp = champlanedict[div.id];
     if (champlanedict[div.id].includes(t)){
-        div.removeAttribute(img);
+        // div.removeAttribute(img);
+        div.removeChild(document.getElementById(t));
+        tmp.splice(t,1)
     } else {
         div.appendChild(img);
         tmp.push(t);
