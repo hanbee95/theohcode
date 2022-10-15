@@ -1,161 +1,644 @@
-<img src=png/Aatrox.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ahri.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Akali.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Akshan.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Alistar.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Amumu.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Anivia.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Annie.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Aphelios.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ashe.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/AurelionSol.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Azir.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Bard.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Belveth.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Blitzcrank.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Brand.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Braum.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Caitlyn.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Camille.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Cassiopeia.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Chogath.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Corki.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Darius.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Diana.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Draven.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/DrMundo.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ekko.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Elise.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Evelynn.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ezreal.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Fiddlesticks.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Fiora.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Fizz.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Galio.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Gangplank.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Garen.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Gnar.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Gragas.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Graves.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Gwen.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Hecarim.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Heimerdinger.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Illaoi.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Irelia.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ivern.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Janna.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/JarvanIV.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Jax.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Jayce.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Jhin.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Jinx.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kaisa.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kalista.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Karma.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Karthus.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kassadin.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Katarina.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kayle.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kayn.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kennen.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Khazix.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kindred.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Kled.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/KogMaw.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Leblanc.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/LeeSin.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Leona.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Lillia.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Lissandra.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Lucian.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Lulu.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Lux.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Malphite.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Malzahar.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Maokai.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/MasterYi.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/MissFortune.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/MonkeyKing.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Mordekaiser.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Morgana.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nami.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nasus.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nautilus.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Neeko.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nidalee.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nilah.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nocturne.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Nunu.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Olaf.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Orianna.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ornn.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Pantheon.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Poppy.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Pyke.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Qiyana.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Quinn.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Rakan.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Rammus.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/RekSai.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Rell.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Renata.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Renekton.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Rengar.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Riven.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Rumble.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ryze.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Samira.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sejuani.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Senna.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Seraphine.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sett.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Shaco.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Shen.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Shyvana.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Singed.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sion.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sivir.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Skarner.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sona.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Soraka.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Swain.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Sylas.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Syndra.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/TahmKench.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Taliyah.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Talon.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Taric.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Teemo.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Thresh.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Tristana.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Trundle.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Tryndamere.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/TwistedFate.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Twitch.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Udyr.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Urgot.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Varus.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Vayne.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Veigar.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Velkoz.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Vex.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Vi.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Viego.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Viktor.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Vladimir.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Volibear.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Warwick.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Xayah.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Xerath.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/XinZhao.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Yasuo.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Yone.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Yorick.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Yuumi.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zac.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zed.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zeri.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Ziggs.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zilean.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zoe.png class="sqimg" onclick="openImg(this.src)">
-<img src=png/Zyra.png class="sqimg" onclick="openImg(this.src)">
+<div class="leftimages">
+  <img src=png/Aatrox.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Aatrox</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ahri.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ahri</span>
+</div>
+<div class="leftimages">
+  <img src=png/Akali.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Akali</span>
+</div>
+<div class="leftimages">
+  <img src=png/Akshan.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Akshan</span>
+</div>
+<div class="leftimages">
+  <img src=png/Alistar.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Alistar</span>
+</div>
+<div class="leftimages">
+  <img src=png/Amumu.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Amumu</span>
+</div>
+<div class="leftimages">
+  <img src=png/Anivia.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Anivia</span>
+</div>
+<div class="leftimages">
+  <img src=png/Annie.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Annie</span>
+</div>
+<div class="leftimages">
+  <img src=png/Aphelios.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Aphelios</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ashe.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ashe</span>
+</div>
+<div class="leftimages">
+  <img src=png/AurelionSol.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">AurelionSol</span>
+</div>
+<div class="leftimages">
+  <img src=png/Azir.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Azir</span>
+</div>
+<div class="leftimages">
+  <img src=png/Bard.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Bard</span>
+</div>
+<div class="leftimages">
+  <img src=png/Belveth.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Belveth</span>
+</div>
+<div class="leftimages">
+  <img src=png/Blitzcrank.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Blitzcrank</span>
+</div>
+<div class="leftimages">
+  <img src=png/Brand.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Brand</span>
+</div>
+<div class="leftimages">
+  <img src=png/Braum.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Braum</span>
+</div>
+<div class="leftimages">
+  <img src=png/Caitlyn.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Caitlyn</span>
+</div>
+<div class="leftimages">
+  <img src=png/Camille.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Camille</span>
+</div>
+<div class="leftimages">
+  <img src=png/Cassiopeia.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Cassiopeia</span>
+</div>
+<div class="leftimages">
+  <img src=png/Chogath.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Chogath</span>
+</div>
+<div class="leftimages">
+  <img src=png/Corki.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Corki</span>
+</div>
+<div class="leftimages">
+  <img src=png/Darius.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Darius</span>
+</div>
+<div class="leftimages">
+  <img src=png/Diana.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Diana</span>
+</div>
+<div class="leftimages">
+  <img src=png/Draven.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Draven</span>
+</div>
+<div class="leftimages">
+  <img src=png/DrMundo.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">DrMundo</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ekko.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ekko</span>
+</div>
+<div class="leftimages">
+  <img src=png/Elise.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Elise</span>
+</div>
+<div class="leftimages">
+  <img src=png/Evelynn.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Evelynn</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ezreal.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ezreal</span>
+</div>
+<div class="leftimages">
+  <img src=png/Fiddlesticks.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Fiddlesticks</span>
+</div>
+<div class="leftimages">
+  <img src=png/Fiora.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Fiora</span>
+</div>
+<div class="leftimages">
+  <img src=png/Fizz.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Fizz</span>
+</div>
+<div class="leftimages">
+  <img src=png/Galio.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Galio</span>
+</div>
+<div class="leftimages">
+  <img src=png/Gangplank.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Gangplank</span>
+</div>
+<div class="leftimages">
+  <img src=png/Garen.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Garen</span>
+</div>
+<div class="leftimages">
+  <img src=png/Gnar.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Gnar</span>
+</div>
+<div class="leftimages">
+  <img src=png/Gragas.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Gragas</span>
+</div>
+<div class="leftimages">
+  <img src=png/Graves.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Graves</span>
+</div>
+<div class="leftimages">
+  <img src=png/Gwen.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Gwen</span>
+</div>
+<div class="leftimages">
+  <img src=png/Hecarim.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Hecarim</span>
+</div>
+<div class="leftimages">
+  <img src=png/Heimerdinger.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Heimerdinger</span>
+</div>
+<div class="leftimages">
+  <img src=png/Illaoi.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Illaoi</span>
+</div>
+<div class="leftimages">
+  <img src=png/Irelia.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Irelia</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ivern.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ivern</span>
+</div>
+<div class="leftimages">
+  <img src=png/Janna.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Janna</span>
+</div>
+<div class="leftimages">
+  <img src=png/JarvanIV.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">JarvanIV</span>
+</div>
+<div class="leftimages">
+  <img src=png/Jax.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Jax</span>
+</div>
+<div class="leftimages">
+  <img src=png/Jayce.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Jayce</span>
+</div>
+<div class="leftimages">
+  <img src=png/Jhin.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Jhin</span>
+</div>
+<div class="leftimages">
+  <img src=png/Jinx.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Jinx</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kaisa.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kaisa</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kalista.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kalista</span>
+</div>
+<div class="leftimages">
+  <img src=png/Karma.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Karma</span>
+</div>
+<div class="leftimages">
+  <img src=png/Karthus.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Karthus</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kassadin.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kassadin</span>
+</div>
+<div class="leftimages">
+  <img src=png/Katarina.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Katarina</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kayle.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kayle</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kayn.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kayn</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kennen.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kennen</span>
+</div>
+<div class="leftimages">
+  <img src=png/Khazix.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Khazix</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kindred.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kindred</span>
+</div>
+<div class="leftimages">
+  <img src=png/Kled.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Kled</span>
+</div>
+<div class="leftimages">
+  <img src=png/KogMaw.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">KogMaw</span>
+</div>
+<div class="leftimages">
+  <img src=png/Leblanc.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Leblanc</span>
+</div>
+<div class="leftimages">
+  <img src=png/LeeSin.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">LeeSin</span>
+</div>
+<div class="leftimages">
+  <img src=png/Leona.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Leona</span>
+</div>
+<div class="leftimages">
+  <img src=png/Lillia.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Lillia</span>
+</div>
+<div class="leftimages">
+  <img src=png/Lissandra.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Lissandra</span>
+</div>
+<div class="leftimages">
+  <img src=png/Lucian.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Lucian</span>
+</div>
+<div class="leftimages">
+  <img src=png/Lulu.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Lulu</span>
+</div>
+<div class="leftimages">
+  <img src=png/Lux.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Lux</span>
+</div>
+<div class="leftimages">
+  <img src=png/Malphite.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Malphite</span>
+</div>
+<div class="leftimages">
+  <img src=png/Malzahar.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Malzahar</span>
+</div>
+<div class="leftimages">
+  <img src=png/Maokai.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Maokai</span>
+</div>
+<div class="leftimages">
+  <img src=png/MasterYi.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">MasterYi</span>
+</div>
+<div class="leftimages">
+  <img src=png/MissFortune.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">MissFortune</span>
+</div>
+<div class="leftimages">
+  <img src=png/MonkeyKing.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">MonkeyKing</span>
+</div>
+<div class="leftimages">
+  <img src=png/Mordekaiser.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Mordekaiser</span>
+</div>
+<div class="leftimages">
+  <img src=png/Morgana.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Morgana</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nami.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nami</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nasus.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nasus</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nautilus.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nautilus</span>
+</div>
+<div class="leftimages">
+  <img src=png/Neeko.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Neeko</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nidalee.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nidalee</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nilah.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nilah</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nocturne.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nocturne</span>
+</div>
+<div class="leftimages">
+  <img src=png/Nunu.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Nunu</span>
+</div>
+<div class="leftimages">
+  <img src=png/Olaf.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Olaf</span>
+</div>
+<div class="leftimages">
+  <img src=png/Orianna.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Orianna</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ornn.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ornn</span>
+</div>
+<div class="leftimages">
+  <img src=png/Pantheon.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Pantheon</span>
+</div>
+<div class="leftimages">
+  <img src=png/Poppy.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Poppy</span>
+</div>
+<div class="leftimages">
+  <img src=png/Pyke.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Pyke</span>
+</div>
+<div class="leftimages">
+  <img src=png/Qiyana.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Qiyana</span>
+</div>
+<div class="leftimages">
+  <img src=png/Quinn.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Quinn</span>
+</div>
+<div class="leftimages">
+  <img src=png/Rakan.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Rakan</span>
+</div>
+<div class="leftimages">
+  <img src=png/Rammus.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Rammus</span>
+</div>
+<div class="leftimages">
+  <img src=png/RekSai.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">RekSai</span>
+</div>
+<div class="leftimages">
+  <img src=png/Rell.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Rell</span>
+</div>
+<div class="leftimages">
+  <img src=png/Renata.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Renata</span>
+</div>
+<div class="leftimages">
+  <img src=png/Renekton.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Renekton</span>
+</div>
+<div class="leftimages">
+  <img src=png/Rengar.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Rengar</span>
+</div>
+<div class="leftimages">
+  <img src=png/Riven.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Riven</span>
+</div>
+<div class="leftimages">
+  <img src=png/Rumble.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Rumble</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ryze.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ryze</span>
+</div>
+<div class="leftimages">
+  <img src=png/Samira.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Samira</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sejuani.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sejuani</span>
+</div>
+<div class="leftimages">
+  <img src=png/Senna.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Senna</span>
+</div>
+<div class="leftimages">
+  <img src=png/Seraphine.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Seraphine</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sett.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sett</span>
+</div>
+<div class="leftimages">
+  <img src=png/Shaco.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Shaco</span>
+</div>
+<div class="leftimages">
+  <img src=png/Shen.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Shen</span>
+</div>
+<div class="leftimages">
+  <img src=png/Shyvana.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Shyvana</span>
+</div>
+<div class="leftimages">
+  <img src=png/Singed.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Singed</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sion.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sion</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sivir.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sivir</span>
+</div>
+<div class="leftimages">
+  <img src=png/Skarner.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Skarner</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sona.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sona</span>
+</div>
+<div class="leftimages">
+  <img src=png/Soraka.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Soraka</span>
+</div>
+<div class="leftimages">
+  <img src=png/Swain.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Swain</span>
+</div>
+<div class="leftimages">
+  <img src=png/Sylas.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Sylas</span>
+</div>
+<div class="leftimages">
+  <img src=png/Syndra.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Syndra</span>
+</div>
+<div class="leftimages">
+  <img src=png/TahmKench.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">TahmKench</span>
+</div>
+<div class="leftimages">
+  <img src=png/Taliyah.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Taliyah</span>
+</div>
+<div class="leftimages">
+  <img src=png/Talon.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Talon</span>
+</div>
+<div class="leftimages">
+  <img src=png/Taric.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Taric</span>
+</div>
+<div class="leftimages">
+  <img src=png/Teemo.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Teemo</span>
+</div>
+<div class="leftimages">
+  <img src=png/Thresh.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Thresh</span>
+</div>
+<div class="leftimages">
+  <img src=png/Tristana.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Tristana</span>
+</div>
+<div class="leftimages">
+  <img src=png/Trundle.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Trundle</span>
+</div>
+<div class="leftimages">
+  <img src=png/Tryndamere.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Tryndamere</span>
+</div>
+<div class="leftimages">
+  <img src=png/TwistedFate.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">TwistedFate</span>
+</div>
+<div class="leftimages">
+  <img src=png/Twitch.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Twitch</span>
+</div>
+<div class="leftimages">
+  <img src=png/Udyr.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Udyr</span>
+</div>
+<div class="leftimages">
+  <img src=png/Urgot.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Urgot</span>
+</div>
+<div class="leftimages">
+  <img src=png/Varus.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Varus</span>
+</div>
+<div class="leftimages">
+  <img src=png/Vayne.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Vayne</span>
+</div>
+<div class="leftimages">
+  <img src=png/Veigar.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Veigar</span>
+</div>
+<div class="leftimages">
+  <img src=png/Velkoz.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Velkoz</span>
+</div>
+<div class="leftimages">
+  <img src=png/Vex.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Vex</span>
+</div>
+<div class="leftimages">
+  <img src=png/Vi.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Vi</span>
+</div>
+<div class="leftimages">
+  <img src=png/Viego.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Viego</span>
+</div>
+<div class="leftimages">
+  <img src=png/Viktor.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Viktor</span>
+</div>
+<div class="leftimages">
+  <img src=png/Vladimir.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Vladimir</span>
+</div>
+<div class="leftimages">
+  <img src=png/Volibear.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Volibear</span>
+</div>
+<div class="leftimages">
+  <img src=png/Warwick.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Warwick</span>
+</div>
+<div class="leftimages">
+  <img src=png/Xayah.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Xayah</span>
+</div>
+<div class="leftimages">
+  <img src=png/Xerath.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Xerath</span>
+</div>
+<div class="leftimages">
+  <img src=png/XinZhao.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">XinZhao</span>
+</div>
+<div class="leftimages">
+  <img src=png/Yasuo.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Yasuo</span>
+</div>
+<div class="leftimages">
+  <img src=png/Yone.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Yone</span>
+</div>
+<div class="leftimages">
+  <img src=png/Yorick.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Yorick</span>
+</div>
+<div class="leftimages">
+  <img src=png/Yuumi.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Yuumi</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zac.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zac</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zed.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zed</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zeri.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zeri</span>
+</div>
+<div class="leftimages">
+  <img src=png/Ziggs.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Ziggs</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zilean.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zilean</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zoe.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zoe</span>
+</div>
+<div class="leftimages">
+  <img src=png/Zyra.png class="sqimg" onclick="openImg(this.src)">
+  <span class="championname">Zyra</span>
+</div>

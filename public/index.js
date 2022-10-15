@@ -15,6 +15,7 @@ function openImg(t){
     var img = document.createElement("img");
     img.src = t;
     img.id = t;
+    console.log(img.id);
     var div = document.getElementById(activestate);
 
     var tmp = champlanedict[div.id];
@@ -26,6 +27,7 @@ function openImg(t){
         div.appendChild(img);
         tmp.push(t);
     }
+    console.log(tmp);
     champlanedict[div.id] = tmp;
 }
 
