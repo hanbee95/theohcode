@@ -41,6 +41,32 @@ function changelane(lane){
             document.getElementById(elem).style.backgroundColor = 'white';
         }
     }
-   
-    // console.log(activestate);
+}
+
+function possibility(){
+    let listpossible = [];
+    let banned = champlanedict['ban'];
+    for (const x1 of champlanedict['top']){
+        if (champlanedict['ban'].indexOf(x1) === -1){
+            for (const x2 of champlanedict['jg']){
+                if (champlanedict['ban'].indexOf(x2) === -1){
+                    for (const x3 of champlanedict['mid']){
+                        if (champlanedict['ban'].indexOf(x3) === -1){
+                            for (const x4 of champlanedict['adc']){
+                                if (champlanedict['ban'].indexOf(x4) === -1){
+                                    for (const x5 of champlanedict['sup']){
+                                        if (champlanedict['ban'].indexOf(x5) === -1){
+                                            let tmp = [x1,x2,x3,x4,x5];
+                                            listpossible.push(tmp)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    console.log(listpossible)
 }
