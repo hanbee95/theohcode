@@ -56,8 +56,26 @@ function possibility(){
                                 if (champlanedict['ban'].indexOf(x4) === -1){
                                     for (const x5 of champlanedict['sup']){
                                         if (champlanedict['ban'].indexOf(x5) === -1){
-                                            let tmp = [x1,x2,x3,x4,x5];
-                                            listpossible.push(tmp)
+                                            // let tmp = [x1,x2,x3,x4,x5];
+                                            // listpossible.push(tmp);
+                                            var tag = document.createElement('p');
+                                            var element = document.getElementById('new');
+                                            element.appendChild(tag);
+                                            var img1 = document.createElement("img");
+                                            var img2 = document.createElement("img");
+                                            var img3 = document.createElement("img");
+                                            var img4 = document.createElement("img");
+                                            var img5 = document.createElement("img");
+                                            img1.src = x1;
+                                            img2.src = x2;
+                                            img3.src = x3;
+                                            img4.src = x4;
+                                            img5.src = x5;
+                                            tag.appendChild(img1);
+                                            tag.appendChild(img2);
+                                            tag.appendChild(img3);
+                                            tag.appendChild(img4);
+                                            tag.appendChild(img5);
                                         }
                                     }
                                 }
