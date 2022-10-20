@@ -58,7 +58,8 @@ function possibility(){
                                         if (champlanedict['ban'].indexOf(x5) === -1){
                                             // let tmp = [x1,x2,x3,x4,x5];
                                             // listpossible.push(tmp);
-                                            var tag = document.createElement('p');
+                                            var tag = document.createElement('div');
+                                            tag.className = 'onerow';
                                             var element = document.getElementById('new');
                                             element.appendChild(tag);
                                             var img1 = document.createElement("img");

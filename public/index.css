@@ -167,3 +167,24 @@ ul, li {
   height:60px;
   padding:5px;
 }
+
+.smallrow { 
+  width: 100%;
+  /* height: 40px; */
+  padding:10px; 
+  /* background: white; */
+  /* border: 1px solid black; */
+}
+
+.onerow { 
+  width: 100%;
+  height: 80px;
+  padding:10px; 
+  background: white;
+  /* border: 1px solid black; */
+}
+.onerow > img {
+  width:60px;
+  height:60px;
+  padding:5px;
+}
