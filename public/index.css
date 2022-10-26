@@ -1,4 +1,5 @@
-@import url('pretendard.css');
+/* @import url('pretendard.css'); */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 * {
   box-sizing: border-box;
@@ -111,6 +112,8 @@ ul, li {
 
 .leftimages .championname {
   display: flex;
+  font-size: 8pt;
+  font-weight: 500;
   align-items: center;
   justify-content: center;
 }
