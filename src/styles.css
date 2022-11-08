@@ -1,9 +1,41 @@
-* { box-sizing:border-box; }
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 body {
-	font-family: Helvetica;
+	margin: 0;
 	background: #eee;
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Pretendard';
+}
+
+* { box-sizing:border-box; }
+
+.logologin {
+	background-color: #242424;
+	height: 70px;
+	align-items: center;
+	display: flex;
+}
+.logologin .logo {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	align-items: center;
+	display: flex;
+	margin-left: 30px;
+}
+.logologin .login {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+	margin-right:30px;
+}
+
+.logologin .login > i {
+	margin-right: 6px;
 }
 
 .header { 
