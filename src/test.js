@@ -33,12 +33,15 @@ const firebaseConfig = {
     measurementId: "G-1X9PRFKRFE"
   };
   
+  var loginstatus = 0;
+  console.log('beforelogin'+loginstatus);
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
   const provider = new GoogleAuthProvider();
   //Google Login
   const googlelogin = () =>{
+    if (loginstatus == 0){
     signInWithPopup(auth, provider)
     .then((result) => {
       // This gives you a Google Access Token. You can use it to access the Google API.
@@ -46,8 +49,17 @@ const firebaseConfig = {
       const token = credential.accessToken;
       // The signed-in user info.
       const user = result.user;
+      loginstatus = 1;
       console.log(user);
+      console.log(user.displayName);
+      console.log('afterlogin'+loginstatus);
       // ...
+      
+      if (loginstatus == 1){
+        // console.log('login complete')
+        const logintext = document.getElementById('logintext');
+        logintext.innerText = user.displayName;
+      }
     }).catch((error) => {
       // Handle Errors here.
       const errorCode = error.code;
@@ -58,9 +70,9 @@ const firebaseConfig = {
       const credential = GoogleAuthProvider.credentialFromError(error);
       // ...
     });
-
   }
-  
+  }
+
 
 // Login using email/password
 const loginEmailPassword = async () => {
@@ -118,6 +130,7 @@ const monitorAuthState = async () => {
 const logout = async () => {
   await signOut(auth);
 }
+document.getElementById('logintext').addEventListener('click', googlelogin);
 btngooglelogin.addEventListener("click", googlelogin) 
 btnLogin.addEventListener("click", loginEmailPassword) 
 btnSignup.addEventListener("click", createAccount)

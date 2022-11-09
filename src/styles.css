@@ -33,6 +33,24 @@ body {
 	margin-left: auto;
 	margin-right:30px;
 }
+.logologin .login:hover {
+	cursor:pointer;
+	background-color: #151515;
+}
+
+.mainpage {
+	background-color: #181818;
+}
+.mainpage .ornnwallpaper {
+	display: flex;	
+}
+
+.mainpage .ornnwallpaper > img {
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1320px;
+	height: 500px;
+}
 
 .logologin .login > i {
 	margin-right: 6px;
