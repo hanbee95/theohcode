@@ -38,18 +38,63 @@ body {
 	background-color: #151515;
 }
 
-.mainpage {
+.belowpicture {
 	background-color: #181818;
 }
-.mainpage .ornnwallpaper {
+
+.belowpicture .mainpage {
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1320px;
+}
+.belowpicture .mainpage .ornnwallpaper {
 	display: flex;	
 }
 
-.mainpage .ornnwallpaper > img {
+.belowpicture .mainpage .ornnwallpaper > img {
 	margin-left: auto;
 	margin-right: auto;	
 	width: 1320px;
 	height: 500px;
+}
+
+.belowpicture .mainpage .banpickselect {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1120px;
+	height: 60px;
+	background-color: #181818;
+	color: white;
+}
+
+.belowpicture .mainpage .banpickselect .banpickmenu{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	float: left;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+}
+.belowpicture .mainpage .banpickselect .prefselect{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	float: left;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+}
+.belowpicture .mainpage .banpickselect .share{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	float: left;
+	width: 200px;
+	height: 60px;
+	text-align: center;
 }
 
 .logologin .login > i {
