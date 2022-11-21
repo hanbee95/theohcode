@@ -152,13 +152,12 @@ body {
 	display: flex;
 	flex-direction: row;
 	margin-left: 13px;
-	margin-right: 13px; /*HAN 20221119 TODO:: when the ban red/blue team separate, I'll need this*/
 }
 .belowpicture .mainpage .banpickbox .banbox .banred{
 	display: flex;
 	flex-direction: row;
-	margin-left: 13px;
-	margin-right: 13px; /*HAN 20221119 TODO:: when the ban red/blue team separate, I'll need this*/
+	margin-left: auto;
+	margin-right: 13px;
 }
 .belowpicture .mainpage .banpickbox .banbox .banred .ban{
 	margin-top: 20px;
@@ -187,6 +186,9 @@ body {
 	margin-left: 15px;
 	margin-right: 15px;	
 	background-color: #053482;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 80px;
 	height: 50px;
 	color: #ffffff;
@@ -198,6 +200,9 @@ body {
 	margin-left: 15px;
 	margin-right: 15px;	
 	background-color: #aa2b43;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
 	width: 80px;
 	height: 50px;
 	color: #ffffff;
