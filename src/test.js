@@ -78,60 +78,60 @@ var selectedId = 'blueban1';
 const selectingId = async () => {
   console.log(selectedId)
   if (selectedId =='blueban1'){
+    selectedId = 'redban1'    
+  }
+  else if (selectedId =='redban1'){
     selectedId = 'blueban2'    
   }
   else if (selectedId =='blueban2'){
-    selectedId = 'blueban3'    
-  }
-  else if (selectedId =='blueban3'){
-    selectedId = 'blueban4'    
-  }
-  else if (selectedId =='blueban4'){
-    selectedId = 'blueban5'    
-  }   
-  else if (selectedId =='blueban5'){
-    selectedId = 'redban1'    
-  }  
-  else if (selectedId =='redban1'){
     selectedId = 'redban2'    
-  }    
+  }
   else if (selectedId =='redban2'){
+    selectedId = 'blueban3'    
+  }   
+  else if (selectedId =='blueban3'){
     selectedId = 'redban3'    
-  }      
+  }  
   else if (selectedId =='redban3'){
-    selectedId = 'redban4'    
-  } 
-  else if (selectedId =='redban4'){
-    selectedId = 'redban5'    
-  } 
-  else if (selectedId =='redban5'){
     selectedId = 'bluepick1'    
   }    
   else if (selectedId =='bluepick1'){
-    selectedId = 'bluepick2'    
-  }     
-  else if (selectedId =='bluepick2'){
-    selectedId = 'bluepick3'    
-  }  
-  else if (selectedId =='bluepick3'){
-    selectedId = 'bluepick4'    
-  }  
-  else if (selectedId =='bluepick4'){
-    selectedId = 'bluepick5'    
-  }    
-  else if (selectedId =='bluepick5'){
     selectedId = 'redpick1'    
-  }     
+  }      
   else if (selectedId =='redpick1'){
     selectedId = 'redpick2'    
-  }        
+  } 
   else if (selectedId =='redpick2'){
+    selectedId = 'bluepick2'    
+  } 
+  else if (selectedId =='bluepick2'){
+    selectedId = 'bluepick3'    
+  }    
+  else if (selectedId =='bluepick3'){
     selectedId = 'redpick3'    
-  }   
+  }     
   else if (selectedId =='redpick3'){
+    selectedId = 'redban4'    
+  }  
+  else if (selectedId =='redban4'){
+    selectedId = 'blueban4'    
+  }  
+  else if (selectedId =='blueban4'){
+    selectedId = 'redban5'    
+  }    
+  else if (selectedId =='redban5'){
+    selectedId = 'blueban5'    
+  }     
+  else if (selectedId =='blueban5'){
     selectedId = 'redpick4'    
-  }   
+  }        
   else if (selectedId =='redpick4'){
+    selectedId = 'bluepick4'    
+  }   
+  else if (selectedId =='bluepick4'){
+    selectedId = 'bluepick5'    
+  }   
+  else if (selectedId =='bluepick5'){
     selectedId = 'redpick5'    
   }     
   else if (selectedId =='redpick5'){
@@ -201,7 +201,7 @@ const monitorAuthState = async () => {
 const logout = async () => {
   await signOut(auth);
 }
-document.getElementsByClassName('sqimg').addEventListener('click', openImg);
+// document.getElementsByClassName('sqimg').addEventListener('click', openImg);
 document.getElementById('play').addEventListener('click', selectingId);
 document.getElementById('logintext').addEventListener('click', googlelogin);
 btngooglelogin.addEventListener("click", googlelogin) 
