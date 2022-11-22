@@ -33,7 +33,7 @@ print(photofile)
 
 for champ in champlist:
     fl.writelines('<div class="leftimages">'+'\n')
-    fl.writelines('  <img src=../public/png/'+champ+'.png'+" class=\"sqimg\" onclick=\"openImg(this.src)\">"+'\n')
+    fl.writelines('  <img src=../public/png/'+champ+'.png'+" class=\"sqimg\" id=\""+champ+'">'+'\n')
     fl.writelines('  <span class="championname">'+champ+'</span>'+'\n')
     fl.writelines('</div>'+'\n')
 #    
