@@ -140,10 +140,13 @@ const selectingId = async () => {
 }
 
 // TODO:: HAN 20221121 Want to add image with the id var(selectedId) - NOT WORKING!
-const openImg = async () => {
-  console.log('check point 1')
+const openImg = async (e) => {
+  var img = document.createElement("img");
+  img.src = e;
+  img.id = e;  
+  document.getElementById(selectedId).appendChild(img);
+  console.log(e)
 }
-
 
 // Login using email/password
 const loginEmailPassword = async () => {
@@ -157,7 +160,6 @@ const loginEmailPassword = async () => {
   //step 2: add error handling
   try {
     await signInWithEmailAndPassword(auth, loginEmail, loginPassword)
-    console.log('check point 1')
   }
   catch(error) {
     console.log(`There was an error: ${error}`)
@@ -201,7 +203,18 @@ const monitorAuthState = async () => {
 const logout = async () => {
   await signOut(auth);
 }
-// document.getElementsByClassName('sqimg').addEventListener('click', openImg);
+// var items = document.getElementsByClassName('sqimg');
+// for (var i = 0; i < items.length; i++) {
+//   // console.log(items[i])
+//   items[i].addEventListener('click', openImg(items[i]), false);
+// }
+
+document.querySelectorAll('.sqimg').forEach(item => {
+  item.addEventListener('click', event => {
+    openImg(item.src);
+  })
+})
+
 document.getElementById('play').addEventListener('click', selectingId);
 document.getElementById('logintext').addEventListener('click', googlelogin);
 btngooglelogin.addEventListener("click", googlelogin) 
